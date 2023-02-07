@@ -4,7 +4,7 @@ import Register from './components/Register';
 
 function App() {
   return (
-  <div className='col-12'>
+  <div>
     <Register/>
   </div>
   );
