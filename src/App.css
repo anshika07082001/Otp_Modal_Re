@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .displayRow {
     display: flex;
     flex-direction: row;
@@ -22,27 +27,28 @@
 
 .userNum__inp {
     max-width: 50px;
+    padding: 5px;
 }
 
 .button {
     cursor: pointer;
     border: none;
-    background: rgb(146, 144, 144);
+    background: blue;
     color: white;
     border-radius: 5px;
     padding: 10px;
 }
 
 .inputBox {
-    max-width: 40px;
+    max-width: 20px;
     padding: 10px;
     margin: 2px;
     border-radius: 5px;
 }
 
 .loader__img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 .button--danger {
@@ -52,6 +58,7 @@
 
 .displayRow--modalHeading {
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .button--disabled {
@@ -78,4 +85,8 @@
 
 .successText {
     color: green;
+}
+
+.marginLeft {
+    margin-left: 20px;
 }
